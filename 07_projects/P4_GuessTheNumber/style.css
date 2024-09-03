@@ -1,0 +1,53 @@
+html {
+    margin: 0;
+}
+nav{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+a{
+    background-color: beige;
+    padding: 10px 30px;
+    border-radius: 8px; 
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+}
+#newGame{
+    padding: 10px;
+    border:  2px solid #212121 ;
+    border-radius: 12px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(78, 127, 30);
+}
+h1{
+    background-color: rgb(131, 132, 132);
+}
+#newGame:hover{
+    background-color:  rgb(159, 225, 92);
+    border: 2px solid rgb(94, 94, 94);
+}
+#wrapper{
+    text-align: center;
+    background-color: rgb(191, 192, 192);
+    padding-bottom: 30px;
+}
+#subt{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color:rgb(132, 132, 135)
+}
+#subt:hover{
+    color: #ffffff;
+    border: 2px solid white;
+}
+#guessField{
+    border-radius: 3px;
+}
+h3{
+    margin-left: 38%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg">
+    <nav>
+            <a href="/07_projects/index.html" aria-current="page">Home</a>
+            <a target="_blank" href="http://www.youtube.com/@amitjagda2">Youtube Channel</a>
+    </nav>
+    <div class="container">
+           <h1>BMI Calculator</h1>
+                  <form>
+                        <p><label>Height in cm: </label><input type="text" id="height"></p>
+                        <p><label>Weight in kg: </label><input type="text" id="weight"></p>
+                        <button class="Calculate">  Calculate</button><div id="result"> </div><!--result print here--> 
+                        <div id="weight-guide">
+                                <h3>BMI Guide</h3>
+                                <p class="Underweight"> less than 18.6 : Underweight</p>
+                                <p class="Normal"> 18.6 to 24.9 : Normal Range</p>
+                                <p class="Overweight"> Greater than 24.9 = Overweight</p>
+                        </div>
+                </form>
+    </div>
+</body>
+<script src="mycode.js"></script>
+</html>
