@@ -1,0 +1,24 @@
+html {
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    justify-content: center;
+    border-bottom: solid 1px #aaa;
+    background-color: #eee;
+} 
+.bg{
+    background-color: #aaa;
+}
+a{
+    background-color: beige;
+    padding: 10px 30px;
+    border-radius: 8px; 
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+}
